@@ -1,0 +1,8 @@
+if((Year%400==0)or
+(Year%100!==0)and
+(year%4==)):
+print("Given Year is a leap year");
+else:
+print(":Given is not a leap yaer")
+Year=int(intput("Enter the number:"))
+Cheakleap(Year)
